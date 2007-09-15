@@ -41,7 +41,7 @@
 
 Name:           plexus-container-default
 Version:        1.0
-Release:        %mkrel 0.1.a8.1.1.1
+Release:        %mkrel 0.1.a8.1.1.2
 Epoch:          0
 Summary:        Default Plexus Container
 License:        Apache License
@@ -60,8 +60,6 @@ Patch0:         %{name}-1.0-no-tests.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 BuildArch:      noarch
