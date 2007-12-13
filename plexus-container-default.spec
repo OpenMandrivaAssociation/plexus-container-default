@@ -127,6 +127,7 @@ ln -s %{_javadir} external_repo/JPP
         -s $(pwd)/settings.xml \
         -Dmaven2.jpp.depmap.file=%{SOURCE4} \
         -Dmaven.repo.local=$MAVEN_REPO_LOCAL \
+        -Dmaven.test.skip=true \
         install javadoc:javadoc
 
 %else
