@@ -41,7 +41,7 @@
 
 Name:           plexus-container-default
 Version:        1.0
-Release:        %mkrel 0.1.a8.3.0.1
+Release:        %mkrel 0.1.a8.3.0.2
 Epoch:          0
 Summary:        Default Plexus Container
 License:        Apache License
@@ -63,7 +63,7 @@ BuildRequires:  java-gcj-compat-devel
 BuildArch:      noarch
 BuildRequires:  java-devel
 %endif
-BuildRequires:  jpackage-utils >= 0:1.7.2
+BuildRequires:  java-rpmbuild >= 0:1.7.2
 BuildRequires:  ant >= 0:1.6
 BuildRequires:  ant-nodeps
 BuildRequires:  junit
