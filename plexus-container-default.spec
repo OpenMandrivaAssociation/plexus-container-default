@@ -55,6 +55,7 @@ Source3:        plexus-container-default-settings.xml
 Source4:        plexus-container-default-1.0-jpp-depmap.xml
 
 
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %if %{gcj_support}
 BuildRequires:  java-gcj-compat-devel
