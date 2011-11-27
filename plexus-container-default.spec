@@ -39,7 +39,7 @@
 
 Name:           plexus-container-default
 Version:        1.0
-Release:        0.4.a8.1.2
+Release:        0.4.a8.1.4
 Summary:        Default Plexus Container
 License:        ASL 2.0 and MIT
 Group:          Development/Java
