@@ -44,7 +44,7 @@ Version:	1.0
 Release:	0.1.a8.3.0.2
 License:	Apache License
 Group:		Development/Java
-Url:		http://plexus.codehaus.org/
+Url:		https://plexus.codehaus.org/
 Source0:	plexus-container-default-1.0-alpha-8-src.tar.gz
 # svn export svn://svn.plexus.codehaus.org/plexus/scm/tags/plexus-container-default-1.0-alpha-8/
 Source1:	plexus-container-default-1.0-build.xml
